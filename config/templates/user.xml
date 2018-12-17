@@ -1,0 +1,9 @@
+<templateSet group="user">
+  <template name="@inhdoc" value="/**&#10; * {@inheritdoc}&#10; */" description="inherit doc annotation" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+</templateSet>
